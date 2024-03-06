@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_book"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/year"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/author"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sumarry"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/publisher"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etPageCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/total_page"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etReadPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reading_page"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/cbReading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reading"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"/>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BookshelfAPI</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="add_new_book">Add New Book</string>
+    <string name="year">Year</string>
+    <string name="author">Author</string>
+    <string name="sumarry">Sumarry</string>
+    <string name="publisher">Publisher</string>
+    <string name="total_page">Total Page</string>
+    <string name="reading_page">Reading Page</string>
+    <string name="create_new_book">Create New Book</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="edit_book">Edit Book</string>
+    <string name="reading">Reading ?</string>
+</resources>
